@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <cs50.h>
-#include <string.h>
+// #include <cs50.h>
+// #include <string.h>
 #include <math.h>
 
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
         if ((t[i] >= 'a' && t[i] <= 'z') || (t[i] >= 'A' && t[i] <= 'Z'))
 
         {
-            //iterate to the next caracter if above is true
+            //iterate to the next character if above is true
             count_letters++;
         }
         else if (t[i] == ' ')
